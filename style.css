@@ -1,7 +1,7 @@
 body, html{
     margin: 0;
     padding:0;
-    background-color: black;
+    background-color: white;
 }
 .wrap1{
     margin-top: 0;
@@ -11,8 +11,8 @@ body, html{
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    height:36vw;
-    min-width: 90vw;
+    width: 100%;
+    min-height:60vw;
 }
 .child11{
     color: aliceblue;
@@ -24,7 +24,7 @@ body, html{
     text-align: center;
 }
 .child12{
-    font-family: "images/papyrus";
+    font-family: "papyrus";
     position: absolute;
     left: 50%;
     right: 10%;
@@ -76,19 +76,19 @@ body, html{
     height: 100px;
     width:100%
   }
-  div.box1{
-    min-width: 90%;
-    height: 600px;
-     background-image: url("images/bear.jpg");
-    /* background-attachment: fixed;
+  div.box1 img{
+    width: 90%;
+    height: auto;
+     /* background-image: url("images/bear.jpg"); */
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; */
+    background-position: center;
     background-size: cover;
     position: absolute;
     right: 5%;
     left:5%;
-    top: 50%;
+    top: 0vw;
     transform: translateY(-50%);
     border:20px solid white;
   }
@@ -110,115 +110,115 @@ body, html{
     color: black;
     text-align: center;
       }
-      .box3{
-        background-image: url("images/tiger.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-width: 90%;
-        height: 600px;
-        position: absolute;
-        right: 5%;
-        left:5%;
-        top: 10rem;
-        background-color: white;
-        color: black;
-        text-align: center;
-        border:20px solid white;
-          }
-          .box4{
-            min-width: 90%;
-            height: 100px;
-            position: absolute;
-            right: 5%;
-            left:5%;
-            top: 65rem;
-            background-color: white;
-            color: black;
-            text-align: center;
-            border:20px solid white;
-              }
-              .box5{
-                background-image: url("images/cheetah.jpg");
-                background-repeat: no-repeat;
-                background-size: cover;
-                min-width: 90%;
-                height: 600px;
-                position: absolute;
-                right: 5%;
-                left:5%;
-                top: 75rem;
-                background-color: white;
-                color: black;
-                text-align: center;
-                border:20px solid white;
-                  }
-                  .box6{
-                    min-width: 90%;
-                    height: 100px;
-                    position: absolute;
-                    right: 5%;
-                    left:5%;
-                    top: 130rem;
-                    background-color: white;
-                    color: black;
-                    text-align: center;
-                    border:20px solid white;
-                      }
-                      .box7{
-                        background-image: url("images/hyena.jpg");
-                        background-repeat: no-repeat;
-                        background-size: cover;
-                        min-width: 90%;
-                        height: 900px;
-                        position: absolute;
-                        right: 5%;
-                        left:5%;
-                        top: 140rem;
-                        background-color: white;
-                        color: black;
-                        text-align: center;
-                        border:20px solid white;
-                          }
-                          .box8{
-                            min-width: 90%;
-                            height: 100px;
-                            position: absolute;
-                            right: 5%;
-                            left:5%;
-                            top: 220rem;
-                            background-color: white;
-                            color: black;
-                            text-align: center;
-                            border:20px solid white;
-                              }
-                              .box9{
-                                background-image: url("images/deer.jpg");
-                                box-shadow: 5px black;
-                                background-repeat: no-repeat;
-                                background-size: cover;
-                                min-width: 90%;
-                                height: 900px;
-                                position: absolute;
-                                right: 5%;
-                                left:5%;
-                                top: 230rem;
-                                background-color: white;
-                                color: black;
-                                text-align: center;
-                                border:20px solid white;
-                                  }
-                                  .box10{
-                                    min-width: 90%;
-                                    height: 100px;
-                                    position: absolute;
-                                    right: 5%;
-                                    left:5%;
-                                    top: 315rem;
-                                    background-color: white;
-                                    color: balck;
-                                    text-align: center;
-                                    border:20px solid white;
-                                      }      
+ .box3 img{
+  /* background-image: url("images/tiger.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  height: auto;
+  position: absolute;
+  right: 5%;
+  left:5%;
+  top: 10vw;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border:16px solid white;
+   }
+ .box4{
+   min-width: 90%;
+   height: 100px;
+   position: absolute;
+   right: 5%;
+   left:5%;
+   top: 70vw;
+   background-color: white;
+   color: black;
+   text-align: center;
+   border:20px solid white;
+  }
+ .box5 img{
+   /* background-image: url("images/cheetah.jpg"); */
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 90%;
+   height: auto;
+   position: absolute;
+   right: 5%;
+   left:5%;
+   top: 100rem;
+   background-color: white;
+   color: black;
+   text-align: center;
+   border:20px solid white;
+  }
+ .box6{
+   min-width: 90%;
+   height: 100px;
+   position: absolute;
+   right: 5%;
+   left:5%;
+   top: 170rem;
+   background-color: white;
+   color: black;
+   text-align: center;
+   border:20px solid white;
+    }
+ .box7 img{
+   /* background-image: url("images/hyena.jpg"); */
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 90%;
+   height: auto;
+   position: absolute;
+   right: 5%;
+   left:5%;
+   top: 190rem;
+   background-color: white;
+   color: black;
+   text-align: center;
+   border:20px solid white;
+  }
+ .box8{
+   min-width: 90%;
+   height: 100px;
+   position: absolute;
+   right: 5%;
+   left:5%;
+   top: 280rem;
+   background-color: white;
+   color: black;
+   text-align: center;
+   border:20px solid white;
+ }
+ .box9 img{
+     /* background-image: url("images/deer.jpg"); */
+     box-shadow: 5px black;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 90%;
+     height: auto;
+     position: absolute;
+     right: 5%;
+     left:5%;
+     top: 230vw;
+     background-color: white;
+     color: black;
+     text-align: center;
+     border:20px solid white;
+    }
+  .box10{
+     min-width: 90%;
+     height: 100px;
+     position: absolute;
+     right: 5%;
+     left:5%;
+     top: 370rem;
+     background-color: white;
+     color: balck;
+     text-align: center;
+     border:20px solid white;
+    }      
       .wrap2h1{
         font-size: calc(18px + (18 - 7) * ((100vw - 300px) / (1600 - 300)));
         font-family: "papyrus";
@@ -253,7 +253,7 @@ body, html{
         color: white;
         text-align: center;
     }
-    .wrap1{
+    /* .wrap1{
         margin-top: 0;
         background-image: url("headerpic.jpg");
         background-attachment: fixed;
@@ -261,9 +261,9 @@ body, html{
         background-repeat: no-repeat;
         background-position: center;
         position: relative;
-        height:600px;
-        max-width: 100%;
-    }
+        width:300px;
+        height: auto;
+    } */
  }
  @media(max-width:636px){
     .head1{
